@@ -1,0 +1,38 @@
+.card {
+  &__heading {
+    color: $color-gray-light;
+    font-family: "Big Shoulders Display", cursive;
+  }
+
+  &__description {
+    color: $color-paragraph;
+  }
+
+  &__button {
+    background-color: $color-gray-light;
+  }
+
+  &--sedans {
+    background-color: $color-sedans;
+
+    & a {
+      color: $color-sedans;
+    }
+  }
+
+  &--suvs {
+    background-color: $color-suvs;
+
+    & a {
+      color: $color-suvs;
+    }
+  }
+
+  &--luxury {
+    background-color: $color-luxury;
+
+    & a {
+      color: $color-luxury;
+    }
+  }
+}
