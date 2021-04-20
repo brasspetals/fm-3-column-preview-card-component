@@ -1,15 +1,44 @@
+.component-wrapper {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: grid;
+  grid-auto-flow: row;
+  margin: 5.5rem 1.5rem;
+}
+
 .card {
+  text-align: left;
+  padding: 3rem;
+  display: grid;
+
   &__heading {
     color: $color-gray-light;
     font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 1.875rem;
   }
 
   &__description {
     color: $color-paragraph;
+    margin: 1.625rem 0;
+    line-height: 1.65;
   }
 
   &__button {
     background-color: $color-gray-light;
+    justify-self: start;
+    padding: 0.75rem 1.875rem;
+    border-radius: 7rem;
+    border: 0.125rem solid $color-gray-light;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      color: $color-gray-light;
+    }
   }
 
   &--sedans {

@@ -24,10 +24,6 @@ body {
   font-size: 0.938rem;
   font-weight: 400;
   color: $color-gray-light;
-  min-height: 100vh;
-  display: grid;
-  justify-content: center;
-  align-content: center;
 }
 
 a {
@@ -35,8 +31,12 @@ a {
 }
 
 .container {
-  border-radius: 0.5rem;
-  overflow: hidden;
+  min-height: 100vh;
   display: grid;
   grid-auto-flow: row;
+  justify-content: center;
+}
+
+*:focus {
+  outline-offset: 0.3125rem;
 }
