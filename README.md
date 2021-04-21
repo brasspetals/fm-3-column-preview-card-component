@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - 3-Column Preview Card Component
 
 ![Desktop preview for the stats preview card component challenge](./images/desktop-preview.jpg)
 
@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-scss-grid-css-animations-desktop-pHvO9vyRL](https://www.frontendmentor.io/solutions/3column-preview-card-scss-grid-css-animations-desktop-pHvO9vyRL)
+- Live Site URL: [https://fm-3-column-preview-card-component-brasspetals.vercel.app/](https://fm-3-column-preview-card-component-brasspetals.vercel.app/)
 
 ## My process
 
