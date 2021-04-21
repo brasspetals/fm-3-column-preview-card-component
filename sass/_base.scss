@@ -35,10 +35,6 @@ a {
   display: grid;
   grid-auto-flow: row;
   justify-content: center;
-
-  @media only screen and (min-width: 830px) {
-    align-items: center;
-  }
 }
 
 *:focus {

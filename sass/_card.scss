@@ -5,9 +5,11 @@
   grid-auto-flow: row;
   margin: 5.5rem 1.5rem;
   align-content: start;
+  max-width: 57.5rem;
 
   @media only screen and (min-width: 830px) {
     grid-auto-flow: column;
+    margin: 10.625rem 1.5rem;
   }
 }
 
@@ -41,10 +43,18 @@
     transition: all 0.3s ease;
     align-self: center;
 
+    @media only screen and (min-width: 830px) {
+      margin-top: 3.625rem;
+    }
+
     &:hover,
     &:focus {
       background-color: transparent;
       color: $color-gray-light;
+    }
+
+    &:active {
+      transform: translateY(0.125rem);
     }
   }
 
