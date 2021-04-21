@@ -12,7 +12,7 @@
   }
 
   @media only screen and (min-width: 830px) and (prefers-reduced-motion: no-preference) {
-    animation: fadeUp 0.6s forwards ease-out;
+    animation: slideUp 0.7s forwards cubic-bezier(0.26, 0.54, 0.26, 1);
     overflow: visible;
   }
 }
@@ -71,7 +71,7 @@
       //necessary to keep card border-radius for animation
       border-radius: 0.5rem 0 0 0.5rem;
       animation: slideLeft 0.8s backwards cubic-bezier(0.35, 0.58, 0.35, 1.18)
-        0.4s;
+        0.5s;
     }
 
     & a {
@@ -95,7 +95,7 @@
       //necessary to keep card border-radius for animation
       border-radius: 0 0.5rem 0.5rem 0;
       animation: slideRight 0.8s backwards cubic-bezier(0.35, 0.58, 0.35, 1.18)
-        0.4s;
+        0.5s;
     }
 
     & a {
