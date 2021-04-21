@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+*:focus {
+  outline-offset: 0.3125rem;
+}
+
 .container {
   min-height: 100vh;
   display: grid;
@@ -38,6 +42,19 @@ a {
   align-items: start;
 }
 
-*:focus {
-  outline-offset: 0.3125rem;
+.attribution {
+  text-align: center;
+  color: $color-suvs;
+  padding: 0 1.5rem 1rem;
+
+  & a {
+    font-weight: 700;
+    color: inherit;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-sedans;
+    }
+  }
 }
